@@ -40,10 +40,12 @@ prompt = """Act as a Korean-English-Thai translator. You will receive a
 
 st.title('We go Korean')
 st.subheader('Korean-English-Thai translator')
-st.markdown('Input the text that you want to translate. \n\
-            The AI will translate it for you.')
+st.markdown('Input the Korean text that you want to translate. \n\
+            The AI will translate it for you. \n\
+            Korean lyrics with some English words are also welcome here.
+            Enjoy!')
 
-user_input = st.text_area("Enter some text to correct:", "Your text here")
+user_input = st.text_area("Enter some text to translate:", "Your text here")
 
 
 # submit button after text input
